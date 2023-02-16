@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </header>
       <main className="p-10">
-        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full mx-auto px-2 sm:px-4 lg:px-6">
           <ul className="grid grid-cols-1 gap-4 py-5">
             {links.map((link) => (
               <li key={link.url}>
