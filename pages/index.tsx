@@ -12,7 +12,7 @@ const links = [
 export default function Home() {
   return (
     <div className="min-h-screen max-h-screen bg-black flex justify-center">
-      <div className="w-full max-w-md max-h-screen bg-white m-10 shadow-sm rounded-lg">
+      <div className="w-full max-w-md max-h-screen bg-white md:m-10 shadow-sm rounded-lg">
       <header className="shadow">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <h1 className="text-3xl font-bold leading-tight text-gray-900">Linktree</h1>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </header>
       <main className="p-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border border-blue-500 rounded-md">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ul className="grid grid-cols-1 gap-4 py-5">
             {links.map((link) => (
               <li key={link.url}>
