@@ -4,8 +4,8 @@ import { FaTwitter, FaGithub, FaLinkedin, FaEdge } from "react-icons/fa";
 
 const links = [
   { url: "https://twitter.com/rimoza_10", name: 'Twitter', icon: <FaTwitter /> },
-  { url: "https://twitter.com/rimoza_10", name: 'Github', icon: <FaGithub /> },
-  { url: "https://twitter.com/rimoza_10", name: 'Linkedin', icon: <FaLinkedin /> },
+  { url: "https://github.com/rimoza", name: 'Github', icon: <FaGithub /> },
+  { url: "https://linkedin.com/rimoza", name: 'Linkedin', icon: <FaLinkedin /> },
   { url: "https://rimoza.vercel.app", name: 'Website', icon: <FaEdge /> },
 ];
 
